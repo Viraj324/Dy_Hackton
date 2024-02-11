@@ -1,0 +1,25 @@
+/* Carouselv.css (or include it in your main CSS file) */
+.carousel {
+    height: 400px;
+    /* Set the desired height for the carousel */
+    background-color: #fff;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+
+
+
+
+.slide {
+    width: 80%;
+    height: 500px;
+    margin-left: 160px;
+    background-color: #fff;
+    /* Match the height with the carousel */
+}
+
+/* Customize further as needed */
+
+img.slide {
+    width: 70%;
+}

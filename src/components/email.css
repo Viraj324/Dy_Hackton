@@ -1,0 +1,42 @@
+.emails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+.lorem1 {
+    margin: 50px;
+    text-align: left;
+}
+
+.form {
+    text-align: center;
+    display: flex;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button.normal {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media(max-width: 770px) {
+    p {
+        font-size: 13px;
+    }
+}
+
+/* Customize further as needed */

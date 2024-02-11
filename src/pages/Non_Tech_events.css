@@ -1,0 +1,47 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 0px; /* Left margin */
+    margin-right: 0px; /* Right margin */
+    /* width: calc(100% - 50px); Subtract 40px from both sides for padding */
+    max-width: 100%; /* Set a maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange content vertically */
+    align-items: center; /* Align items horizontally */
+  }
+
+  .logo {
+    margin-bottom: 20px; /* Spacing between logo and text */
+  }
+
+  .club-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; /* Align text center */
+  }
+
+  .description {
+    margin-bottom: 10px;
+  }
+
+  .more {
+    display: none;
+  }
+
+  .see-more {
+    color: blue;
+    cursor: pointer;
+  }
+
+  .content-container {
+    overflow: hidden; /* Hide overflow */
+    transition: height 0.3s ease; /* Add smooth transition */
+  }
+
+  .expanded {
+    height: auto; /* Auto height when expanded */
+  }

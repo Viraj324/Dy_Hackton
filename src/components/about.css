@@ -1,0 +1,36 @@
+/* .aboutcontent {
+    margin-left: 6.4%;
+    margin-right: 6.4%;
+    padding-top: 5%;
+} */
+
+
+
+
+
+
+/* 
+//Comments added  */
+.aboutcontent {
+    padding-left: 6.4%;
+    padding-right: 10%;
+    padding-top: 5%;
+    margin: 0%;
+}
+
+
+/* 
+Values Changes Commits added */
+.about {
+    justify-content: center;
+}
+
+@media(max-width: 770px) {
+    p {
+        font-size: 13px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+}
